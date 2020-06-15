@@ -4,14 +4,14 @@ As most write-ups are already there, this write-up only has chals that can be so
 _Also this is the first time I am doing write-ups so let see how it goes.._
 
 
-#### Challenges
+### Challenges
 
-- ##### Warm up challenges
+- #### Warm up challenges
     ___
-    ##### Clisays
+    #### Clisays
     ![chal image](./CLIsays.png "Clisays")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./moo.png "Clisays_sol")
     </br>    
     1. Figuring out the type of file using file command, it is an ELF binary
@@ -22,10 +22,10 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     
     ___
  
-    ##### MetaMene
+    #### MetaMene
     ![chal image](./metameme.png "meta")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./metasol.png "meta_sol")
     </br>    
     1. Figuring out the type of file using file command, it is an JPEG file
@@ -36,12 +36,12 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     
     ---
 
-- ##### Forensics challenges
+- #### Forensics challenges
     ___
-    ##### Microsooft
+    #### Microsooft
     ![chal image](./Microsooft.png "micro")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solmicro.png "sol1")
     ![sol image](./solmicro2.png "sol2")
     </br>    
@@ -53,10 +53,10 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     > flag{oof_is_right_why_gfxdata_though}
     
     ___
-    ##### Cowpie
+    #### Cowpie
     ![chal image](./cowpie.png "cowpie")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solcowpie.png "solcow")
     </br>    
     1. Figuring out the type of file using file command.
@@ -67,12 +67,12 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     
     ___
 
-- ##### Mobile challenges
+- #### Mobile challenges
     ___
-    ##### Candroid
+    #### Candroid
     ![chal image](./candroid.png "candroid")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solcandroid.png "Candroid_sol")
     ![sol image](./solcand2.png "Candroid_sol")
     </br>    
@@ -83,11 +83,11 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     > flag{4ndr0id_1s_3asy}
     
     ___
-    ##### Simple App
+    #### Simple App
     
     ![chal image](./simpleapp.png "simpleapp")
 
-    ###### Solution
+    ##### Solution
     
     ![sol image](./solsimple1.png "simple_sol")
     ![sol image](./solsimple2.png "simple_sol")
@@ -102,12 +102,12 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     
     ___
 
-- ##### Miscellaneous challenges
+- #### Miscellaneous challenges
     ___
-    ##### Vortex
+    #### Vortex
     ![chal image](./vortex.png "vortex")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solvortex.png "vortex_sol")
     </br>    
     1. A classic Grep challenge
@@ -116,10 +116,10 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     > flag{more_text_in_the_vortex}
     
     ___
-    ##### Fake File
+    #### Fake File
     ![chal image](./fakefile.png "fakefile")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solfakefile.png "fakefile_sol")
     
     1. Connected to the server, tried to cat the file but as the file name is equal to `..` it results in an error, that bash thinks it is a directory.
@@ -144,12 +144,12 @@ Thanks for reading.. . .
 
 But hey, here is a bonus section of OSINT chals ;)
 
-- ##### OSINT challenges
+- #### OSINT challenges
     ___
-    ##### Time Keeper
+    #### Time Keeper
     ![chal image](./timekeeper.png "timekeeper")
 
-    ###### Solution
+    ##### Solution
     1. Opening the original wepage, checked the source code, there was a username there which lead to a twitter account but that was a rabit hole.
     ![sol image](./webpage.png "time_sol")
   
@@ -168,10 +168,10 @@ But hey, here is a bonus section of OSINT chals ;)
     > JCTF{the_wayback_machine}
     
     ___
-    ##### New Year Resolution
+    #### New Year Resolution
     ![chal image](./newyearresol.png "new")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solnewyears.png "new_sol")
     
     1. Using `nslookup`
@@ -181,10 +181,10 @@ But hey, here is a bonus section of OSINT chals ;)
     > flag{next_year_i_wont_use_spf}
     
     ___
-    ##### Finsta
+    #### Finsta
     ![chal image](./Finsta.png "finsta")
 
-    ###### Solution
+    ##### Solution
     ![sol image](./solFinsta.png "finsta_sol")
         
     1. Challenge Name is the biggest hint, Insta..
@@ -197,10 +197,10 @@ But hey, here is a bonus section of OSINT chals ;)
     lol.. 
     
     ___
-    ##### Tron
+    #### Tron
     ![chal image](./Tron.png "tron")
 
-    ###### Solution
+    ##### Solution
     1. Being honest this chal took me a lot of time to figure out as i was thinking it is about shodan.. .
     ![sol image](./trongit.png "tron_sol")
   
