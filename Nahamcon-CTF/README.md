@@ -77,7 +77,7 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     ![sol image](./solcand2.png "Candroid_sol")
     </br>    
     1. `apktool d candroid.apk` decodes the apk file and puts the decoded content into a folder with name similar to apk name in the current directory.
-    2. `grep -r -i "flag{.*}"` greps the flag from the current folder
+    2. `grep -r -i "flag{.*} ."` greps the flag from the current folder
     3. Again the challenge was about analysing the apk but if you know grep, and little apk reversing tricks you can use the above grep trick for much more, check out the apk reversing room on THM for more
     
     > flag{4ndr0id_1s_3asy}
@@ -93,7 +93,7 @@ _Also this is the first time I am doing write-ups so let see how it goes.._
     ![sol image](./solsimple2.png "simple_sol")
   
     1. `apktool d simple-app.apk` decodes the apk file and puts the decoded content into a folder with name similar to apk name in the current directory.
-    2. `grep -r -i "flag{.*}"` greps the flag from the current folder
+    2. `grep -r -i "flag{.*} ."` greps the flag from the current folder
     3. Similar to previous chal.. huh, nope, this time the hardcoded string was in smali, that is _like_ the assembly language for android.
     
     > flag{3asY_4ndr0id_r3vers1ng}
